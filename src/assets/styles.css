@@ -99,6 +99,10 @@ a:hover {
   font-size: 1rem;
 }
 
+.btn:focus {
+  outline: none;
+}
+
 .btn-primary {
   background-color: var(--accent-primary);
   color: white;
@@ -111,6 +115,13 @@ a:hover {
   box-shadow: var(--shadow-md);
 }
 
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: var(--accent-hover);
+  color: white;
+  outline: none;
+}
+
 .btn-secondary {
   background-color: var(--bg-tertiary);
   color: var(--text-primary);
@@ -119,6 +130,13 @@ a:hover {
 .btn-secondary:hover {
   background-color: var(--accent-secondary);
   color: white;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus {
+  background-color: var(--accent-secondary);
+  color: white;
+  outline: none;
 }
 
 .btn-outline {
@@ -130,6 +148,13 @@ a:hover {
 .btn-outline:hover {
   background-color: var(--accent-primary);
   color: white;
+}
+
+.btn-outline:active,
+.btn-outline:focus {
+  background-color: var(--accent-primary);
+  color: white;
+  outline: none;
 }
 
 .card {
