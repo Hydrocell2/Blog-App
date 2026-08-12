@@ -170,7 +170,7 @@ onMounted(() => {
 .post-detail-container {
   min-height: 100vh;
   padding: 3rem 2rem;
-  max-width: 2000px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   margin-left: 200px;
@@ -178,6 +178,9 @@ onMounted(() => {
 
 .post-detail {
   width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .post-header {
@@ -269,17 +272,23 @@ onMounted(() => {
   margin-bottom: 2rem;
   color: var(--text-primary);
   line-height: 1.2;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .post-body {
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--text-secondary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .post-body p {
   white-space: pre-wrap;
   margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .post-interactions {
